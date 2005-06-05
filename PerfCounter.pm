@@ -11,7 +11,7 @@ our @ISA = qw(Exporter);
 our %EXPORT_TAGS = ( 'all' => [ qw(frequency counter ) ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 require XSLoader;
 XSLoader::load('Win32::PerfCounter', $VERSION);
@@ -74,11 +74,11 @@ F<WinBase.h>, F<Windows.h>, L(Time::HiRes|Time::HiRes).
 
 =head1 AUTHOR
 
-Christian Renz, E<lt>crenz@web42.comE<gt>
+Christian Renz, E<lt>crenz @ web42.comE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003 by Christian Renz.
+Copyright 2003-2005 by Christian Renz E<lt>crenz @ web42.comE<gt>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

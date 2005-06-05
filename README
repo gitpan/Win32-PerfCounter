@@ -1,5 +1,5 @@
-Win32/PerfCounter version 0.01
-==============================
+Win32/PerfCounter
+=================
 
 The Win32 API features a high performance counter that allows 
 measuring extremely short time spans. Depending on your machine, 
@@ -24,9 +24,7 @@ This module requires a C compiler and will only run on 32-Bit Windows platforms.
 
 COPYRIGHT AND LICENCE
 
-Put the correct copyright and licence information here.
-
-Copyright (C) 2003 Christian Renz <crenz@web42.com>
+Copyright (C) 2003-2005 Christian Renz <crenz@web42.com>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
